@@ -1,9 +1,8 @@
 #pip install python-dotenv
 
-from dotenv import load_dotenv
-
-load_dotenv(override=True) 
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv(override=True) 
+# load_dotenv()
 
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
